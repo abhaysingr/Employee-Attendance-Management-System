@@ -1,0 +1,49 @@
+.rbc-calendar {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+}
+
+.rbc-toolbar {
+  margin-bottom: 20px;
+}
+
+.rbc-toolbar button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.rbc-toolbar button:hover {
+  background-color: #0056b3;
+}
+
+.rbc-event {
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.rbc-event.status-present {
+  background-color: #28a745; /* Green */
+}
+
+.rbc-event.status-absent {
+  background-color: #dc3545; /* Red */
+}
+
+.rbc-event.status-half_day {
+  background-color: #ffc107; /* Yellow */
+  color: #212529;
+}
+
+.rbc-event.status-on_leave {
+  background-color: #17a2b8; /* Cyan */
+}

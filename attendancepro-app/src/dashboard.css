@@ -1,0 +1,50 @@
+/* Admin Dashboard - 2 grid cards */
+.admin-dashboard-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Cards styling */
+.dashboard-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-card h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+/* Badges inside cards */
+.stat-badges {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stat-badge {
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Task badge colors */
+.stat-badge.pending { background-color: #ffc107; color: #212529; }
+.stat-badge.in-progress { background-color: #17a2b8; }
+.stat-badge.completed { background-color: #28a745; }
+
+/* Leave badge colors */
+.stat-badge.approved { background-color: #28a745; }
+.stat-badge.pending-leave { background-color: #ffc107; color: #212529; }
+.stat-badge.rejected { background-color: #dc3545; }
+
+/* Responsive */
+@media (max-width: 992px) {
+  .admin-dashboard-content { grid-template-columns: 1fr; }
+}
