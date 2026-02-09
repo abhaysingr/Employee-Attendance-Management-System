@@ -1,4 +1,4 @@
-# Employee Management System
+# Employee Attendance Management System
 
 ## Project Overview
 
