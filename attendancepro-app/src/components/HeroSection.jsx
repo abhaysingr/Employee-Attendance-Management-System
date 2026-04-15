@@ -10,7 +10,7 @@ export default function HeroSection() {
           Get More Done with <span className="text-blue-600">AttendancePro</span>
         </h1>
         <p className="mb-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Say goodbye to manual attendance tracking and hello to effortless management with AttendancePro.
         </p>
         <a href="/signin">
         <button

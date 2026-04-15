@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\PROJECT\Employee-Attendance-Management-System\employee"/>
 			<item value="C:\Users\abhay\OneDrive\Desktop\Backend\employee"/>
 		</list>
 		<list key="projectNameTemplate">
